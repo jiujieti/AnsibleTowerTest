@@ -5,5 +5,5 @@
   - name: print hello world
     shell: echo "Hello, world! Meow~"
   - name: install vim
-    shell: yum install vim
+    shell: sudo yum install vim
   
