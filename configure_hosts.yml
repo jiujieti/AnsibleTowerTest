@@ -1,0 +1,9 @@
+---
+- name: configure hosts
+  hosts: all
+  tasks:
+  - name: print hello world
+    shell: echo "Hello, world! Meow~"
+  - name: install vim
+    shell: yum install vim
+  
