@@ -4,6 +4,6 @@
   tasks:
   - name: print hello world
     shell: echo "Hello, world! Meow~"
-  - name: install vim
-    shell: sudo yum install vim
+  - name: add .vimrc
+    shell: touch .vimrc 
   
